@@ -1,0 +1,6 @@
+commonLabels:
+  app: fluentd
+resources:
+- deployment.yaml
+- elasticsearch.yaml
+- kibana.yaml

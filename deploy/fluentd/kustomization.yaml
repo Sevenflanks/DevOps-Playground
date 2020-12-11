@@ -1,0 +1,5 @@
+commonLabels:
+  app: fluentd
+resources:
+- daemon-set.yml
+- configmap.yml
