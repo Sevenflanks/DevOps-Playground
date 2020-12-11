@@ -1,0 +1,5 @@
+commonLabels:
+  app: test-java-app
+resources:
+- deployment.yaml
+- service.yaml
