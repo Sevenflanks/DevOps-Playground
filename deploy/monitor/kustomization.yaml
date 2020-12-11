@@ -1,0 +1,6 @@
+commonLabels:
+  app: monitor
+resources:
+- configmap.yml
+- deployment.yaml
+- grafana.yaml
