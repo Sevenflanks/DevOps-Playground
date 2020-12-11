@@ -35,5 +35,3 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         name: Compile&Test
         conclusion: ${{ job.status }}
-        output: |
-          {"summary":${{ steps.test.outputs.summary }}}
