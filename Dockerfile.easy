@@ -1,0 +1,4 @@
+FROM azul/zulu-openjdk-alpine:11-jre
+ENV JAVA_OPTS="-Xms512m -Xmx1024m -Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8"
+COPY ./target/app.jar /tmp/webapps/app.jar
+CMD java $JAVA_OPTS -jar /tmp/webapps/app.jar

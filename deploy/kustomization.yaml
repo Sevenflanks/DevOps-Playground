@@ -1,0 +1,11 @@
+commonLabels:
+  project: project-1
+namespace: project-1
+bases:
+  - ./nginxdemo
+  - ./test-java-app
+images:
+  - name: nginxdemos/hello
+    newTag: latest
+  - name: test-java-app
+    newTag: latest

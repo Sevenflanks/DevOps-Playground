@@ -14,10 +14,10 @@ import javax.persistence.Id;
 @NoArgsConstructor
 public class SampleData {
 
-    @Id
-    @GeneratedValue
-    Long id;
+  @Id
+  @GeneratedValue
+  Long id;
 
-    String name;
+  String name;
 
 }
